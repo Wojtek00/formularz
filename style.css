@@ -1,0 +1,180 @@
+/*
+1. Reset
+2. Style globalne
+3. Typografia
+4. Kompomenty
+5. Naglowek
+6. Style glownych sekcji
+7. Stopka
+*/
+
+/*
+1. Reset
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+2. Style globalne
+*/
+body {
+	background-color: #F4F3EF;
+	color: #62615C;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+}
+
+section {
+	text-align: center;
+	padding: 0 10%;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+	p {
+		font-size: 18px;
+	}
+}
+
+h1 {
+	color:#FF5733;
+	font-weight: bold;
+}
+
+
+
+
+.section-contact-form h1 {
+	margin: 50px 0 40px;
+}
+
+@media screen and (min-width: 1024px) {
+	.section-contact-form h1 {
+		margin: 120px 0 100px;
+		font-size: 70px;
+	}	
+}
+
+.section-contact-form-inner {
+	padding: 18px 0 24px;
+	width: 80%;
+	margin: 0 auto;
+	border-bottom: 1px dashed #A7A79B;
+}
+
+@media screen and (min-width: 1024px) {
+	.section-contact-form-inner {
+		padding: 18px 0 70px;
+	}
+}
+
+.section-contact-form input,
+.section-contact-form textarea {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-weight: 700;
+	margin: 0 auto 12px;
+	border: 1px solid #D2CFC6;
+}
+
+@media screen and (min-width: 1024px) {
+	.section-contact-form input,
+	.section-contact-form textarea {
+		width: 70%;
+	}
+}
+
+.section-contact-form input {
+	height: 28px;
+}
+
+@media screen and (min-width: 1024px) {
+	.section-contact-form input {
+		height: 60px;
+		font-size: 16px;
+	}	
+}
+
+.section-contact-form textarea {
+	height: 180px;
+	padding: 10px 0 0;
+	font-size: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+	.section-contact-form textarea {
+		height: 300px;
+	}
+}
+
+.section-contact-form button {
+	padding: 10px 42px;
+	background-color: #FF5733;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 12px;
+	border: none;
+	border-radius: 3px;
+	margin: 25px 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+	.section-contact-form button {
+		padding: 22px 80px;
+		font-size: 24px;
+		margin: 40px 0 0;
+	}
+}
+
+
+
+footer {
+	padding: 20px 0;
+	font-size: 12px;
+	text-align: center;
+	color: #A7A79B;
+	text-transform: uppercase;
+}
+
+@media screen and (min-width: 1024px) {
+	footer {
+		padding: 40px 0;
+		font-size: 16px;
+	}
+}
